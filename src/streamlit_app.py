@@ -24,7 +24,7 @@ if st.session_state.last_date != today_str:
 # --- [데이터 기본 세팅 (대표사 & 성상 목록)] ---
 if "company_list" not in st.session_state:
     st.session_state.company_list = [
-        "주식회사 파란에코(운반)",
+        "주식회사 파란에코(운반사)",
         "주식회사 하나씨엔알(운반)",
         "주식회사 지엘산업개발(운반)",
         "주식회사 장형기업(처리)",
